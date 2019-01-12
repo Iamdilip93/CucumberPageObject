@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="547.299" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\FrameWorks\CucumberPageObjects\target\test-classes;D:\FrameWorks\CucumberPageObjects\target\classes;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\Dilip\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\Dilip\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Dilip\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Dilip\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-picocontainer\1.2.5\cucumber-picocontainer-1.2.5.jar;C:\Users\Dilip\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Dilip\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Dilip\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dilip\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Dilip\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dilip\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Dilip\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Dilip\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Dilip\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Dilip\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Dilip\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Dilip\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Dilip\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Dilip\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Dilip\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Dilip\.m2\repository\com\vimalselvam\cucumber-extentsreport\1.1.0\cucumber-extentsreport-1.1.0.jar;C:\Users\Dilip\.m2\repository\com\relevantcodes\extentreports\2.41.0\extentreports-2.41.0.jar;C:\Users\Dilip\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Dilip\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Dilip\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Dilip\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Dilip\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Dilip\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Dilip\.m2\repository\org\apache\directory\studio\org.apache.commons.codec\1.8\org.apache.commons.codec-1.8.jar;C:\Users\Dilip\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\Dilip\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Dilip\AppData\Local\Temp\surefire5238843219016332968\surefirebooter9123136742993234799.jar C:\Users\Dilip\AppData\Local\Temp\surefire5238843219016332968 2019-01-12T23-16-23_736-jvmRun1 surefire577732052834527178tmp surefire_02321244289861085893tmp"/>
+    <property name="surefire.test.class.path" value="D:\FrameWorks\CucumberPageObjects\target\test-classes;D:\FrameWorks\CucumberPageObjects\target\classes;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\Dilip\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\Dilip\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Dilip\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Dilip\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Dilip\.m2\repository\info\cukes\cucumber-picocontainer\1.2.5\cucumber-picocontainer-1.2.5.jar;C:\Users\Dilip\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Dilip\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Dilip\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Dilip\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dilip\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Dilip\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dilip\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Dilip\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Dilip\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Dilip\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Dilip\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Dilip\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Dilip\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Dilip\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Dilip\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Dilip\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Dilip\.m2\repository\com\vimalselvam\cucumber-extentsreport\1.1.0\cucumber-extentsreport-1.1.0.jar;C:\Users\Dilip\.m2\repository\com\relevantcodes\extentreports\2.41.0\extentreports-2.41.0.jar;C:\Users\Dilip\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Dilip\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Dilip\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Dilip\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Dilip\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Dilip\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Dilip\.m2\repository\org\apache\directory\studio\org.apache.commons.codec\1.8\org.apache.commons.codec-1.8.jar;C:\Users\Dilip\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\Dilip\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Dilip"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="basedir" value="D:\FrameWorks\CucumberPageObjects"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dilip\AppData\Local\Temp\surefire5238843219016332968\surefirebooter9123136742993234799.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="user.name" value="Dilip"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Dilip\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dilip\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="user.dir" value="D:\FrameWorks\CucumberPageObjects"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/lib/amd64;D:\oracale\app\oracle\product\11.2.0\server\bin;;D:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;D:\Testing\myandroid\tools;D:\Testing\myandroid\build-tools\25.0.1;D:\Testing\myandroid\platform-tools;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Users\Dilip\AppData\Local\Microsoft\WindowsApps;C:\Users\Dilip\AppData\Roaming\npm;C:\adb;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\PuTTY\;D:\Testing\maven\apache-maven-3.5.3\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Dilip\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Dilip\AppData\Local\Programs\Python\Python37-32\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Users\Dilip\AppData\Local\Microsoft\WindowsApps;C:\Users\Dilip\AppData\Roaming\npm;D:\Testing\maven\apache-maven-3.5.3\bin;;D:\Testing And Java\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="feature" classname="runner.RunCuke" time="540.647">
+    <failure message="org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8903&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SHREE&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: driver.version: SeleniumDriver" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8903
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SHREE', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: SeleniumDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8903
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SHREE', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: SeleniumDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8903
+Caused by: java.net.ConnectException: Connection refused: connect
+</failure>
+    <system-out><![CDATA[@Used-Search-Cars
+Feature: Accepatance Testing To Validate Used Search cars page is working fine.
+  in order to validate that
+  search car page is working fine
+  we will do acceptance testing
+Failure in after hook:AfterActions.tearDown(Scenario)
+Message: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8903
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SHREE', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: SeleniumDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)
+	at utils.SeleniumDriver.tearDown(SeleniumDriver.java:51)
+	at steps.AfterActions.tearDown(AfterActions.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8903
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:242)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:160)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 48 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+	... 68 more
+
+      org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8903
+      Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+      System info: host: 'SHREE', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+      Driver info: driver.version: SeleniumDriver
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+      	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)
+      	at utils.SeleniumDriver.tearDown(SeleniumDriver.java:51)
+      	at steps.AfterActions.tearDown(AfterActions.java:23)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:40)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+      	at cucumber.runtime.Utils.invoke(Utils.java:34)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+      	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+      	at org.testng.TestRunner.run(TestRunner.java:632)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+      	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+      	at org.testng.TestNG.run(TestNG.java:1064)
+      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+      	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+      Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8903
+      	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:242)
+      	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:160)
+      	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+      	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+      	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+      	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+      	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+      	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+      	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+      	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+      	at okhttp3.RealCall.execute(RealCall.java:77)
+      	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	... 48 more
+      Caused by: java.net.ConnectException: Connection refused: connect
+      	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+      	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+      	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+      	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+      	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+      	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+      	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+      	at java.net.Socket.connect(Socket.java:589)
+      	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+      	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+      	... 68 more
+
+
+  @Used-Search-Cars-Positive
+  Scenario: validate used search cars page                                                   # src/test/resources/features/UsedCarSearch.feature:8
+    Given I am on the home page  "https://www.carsguide.com.au"  of CarsGuide WebSite        # SearchCarsSteps.i_am_on_the_home_page_of_CarsGuide_WebSite(String)
+      org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8903
+      Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+      System info: host: 'SHREE', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+      Driver info: driver.version: SeleniumDriver
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+      	at utils.SeleniumDriver.openPage(SeleniumDriver.java:33)
+      	at steps.SearchCarsSteps.i_am_on_the_home_page_of_CarsGuide_WebSite(SearchCarsSteps.java:23)
+      	at ?.Given I am on the home page  "https://www.carsguide.com.au"  of CarsGuide WebSite(src/test/resources/features/UsedCarSearch.feature:9)
+      Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8903
+      	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:242)
+      	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:160)
+      	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+      	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+      	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+      	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+      	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+      	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+      	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+      	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+      	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+      	at okhttp3.RealCall.execute(RealCall.java:77)
+      	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+      	at utils.SeleniumDriver.openPage(SeleniumDriver.java:33)
+      	at steps.SearchCarsSteps.i_am_on_the_home_page_of_CarsGuide_WebSite(SearchCarsSteps.java:23)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:40)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+      	at cucumber.runtime.Utils.invoke(Utils.java:34)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+      	at org.testng.TestRunner.run(TestRunner.java:632)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+      	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+      	at org.testng.TestNG.run(TestNG.java:1064)
+      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+      	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+      Caused by: java.net.ConnectException: Connection refused: connect
+      	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+      	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+      	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+      	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+      	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+      	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+      	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+      	at java.net.Socket.connect(Socket.java:589)
+      	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+      	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+      	... 68 more
+
+    When I move to the menu                                                                  # SearchCarsSteps.i_move_to_the_menu(String>)
+    And click on "Used" links on used  search Car page                                       # UsedCarsSteps.click_on_links_on_used_search_Car_page(String)
+    And select car brand as "AUDI" from AnyMake dropdown on used  search Car page            # UsedCarsSteps.select_car_brand_as_from_AnyMake_dropdown_on_used_search_Car_page(String)
+    And select car model on used  search Car page                                            # UsedCarsSteps.select_car_model_on_used_search_Car_page(String>)
+    And select car brand as "SA - All" from SelectLocation dropdown on used  search Car page # UsedCarsSteps.select_car_brand_as_from_SelectLocation_dropdown_on_used_search_Car_page(String)
+    And select car brand as "$2,000" from price dropdown on used  search Car page            # UsedCarsSteps.select_car_brand_as_from_price_dropdown_on_used_search_Car_page(String)
+    And click on Find_My_Next_Car button on used  search Car page                            # UsedCarsSteps.click_on_Find_My_Next_Car_button_on_used_search_Car_page()
+    Then I should see list of search cars on used  search Car page                           # UsedCarsSteps.i_should_see_list_of_search_cars_on_used_search_Car_page()
+    And the page title should be "Used Audi A4 Under 2000 for Sale SA | carsguide"           # SearchCarsSteps.the_page_title_should_be(String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 8903
+Only local connections are allowed.
+Jan 12, 2019 11:17:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
